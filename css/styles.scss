@@ -11,17 +11,32 @@ body {
 	h1 {
 		font-family: trebuchet, sans-serif;
 	}
+	h2 {
+		text-align: center!important;
+	}
 	header img {
 		width: 70.75%;
 	}
-	.class {
-		display: flex;
+	section {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
 		background-color: #ffffff;
-		border: solid 5px #003876;
-		border radius: 20px;
+		border: 5px solid #003876;
+		border-radius: 20px;
+		margin: 20px;
+    padding: 30px;
+	}
+	.box1 {
+		grid-column: 1;
+    grid-row: 1/6;
+	}
+	.ebooks {
+		grid-column: 2;
+		float: right;
+		padding: 30px;
 	}
 	.lists {
 		text-align: left;
-		font-size: 2rem;
 	}
 }

@@ -1,14 +1,33 @@
 body {
   font-family: calisto, serif;
   background: url(/images/background_image_plaid.jpg);
+  background-size: cover;
+  background-position: fixed;
   text-align: center;
   margin: 40px auto;
   padding: 0 1em;
   max-width: 70.75em; }
   body h1 {
-    font-family: trebuchet, sans-serif;
-    font-size: 1.25em; }
+    font-family: trebuchet, sans-serif; }
+  body h2 {
+    text-align: center !important; }
   body header img {
     width: 70.75%; }
-  body ol {
+  body section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    border: 5px solid #003876;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px; }
+  body .box1 {
+    grid-column: 1;
+    grid-row: 1/6; }
+  body .ebooks {
+    grid-column: 2;
+    float: right;
+    padding: 30px; }
+  body .lists {
     text-align: left; }
