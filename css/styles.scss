@@ -1,7 +1,27 @@
 body {
-	font-family: sans-serif;
+	font-family: calisto, serif;
+	background: url(/images/background_image_plaid.jpg);
+	background-size: cover;
+	background-position: fixed;
+	text-align: center;
+	margin: 40px auto;
+	padding: 0 1em;
+	max-width: 70.75em;
 
-	img {
-		width: 100%;
+	h1 {
+		font-family: trebuchet, sans-serif;
+	}
+	header img {
+		width: 70.75%;
+	}
+	.class {
+		display: flex;
+		background-color: #ffffff;
+		border: solid 5px #003876;
+		border radius: 20px;
+	}
+	.lists {
+		text-align: left;
+		font-size: 2rem;
 	}
 }

@@ -1,0 +1,14 @@
+body {
+  font-family: calisto, serif;
+  background: url(/images/background_image_plaid.jpg);
+  text-align: center;
+  margin: 40px auto;
+  padding: 0 1em;
+  max-width: 70.75em; }
+  body h1 {
+    font-family: trebuchet, sans-serif;
+    font-size: 1.25em; }
+  body header img {
+    width: 70.75%; }
+  body ol {
+    text-align: left; }
