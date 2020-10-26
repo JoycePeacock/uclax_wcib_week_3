@@ -1,6 +1,10 @@
 body {
   font-family: calisto, serif;
-  background: url(../images/background_image_plaid.jpg);
+  background: url(../images/background_image_plaid.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
   margin: 40px auto;
   padding: 0 1em; }
