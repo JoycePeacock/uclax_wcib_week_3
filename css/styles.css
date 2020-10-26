@@ -1,6 +1,6 @@
 body {
   font-family: calisto, serif;
-  background: url("/images/background_image_plaid.jpg");
+  background: url(../images/background_image_plaid.jpg);
   text-align: center;
   margin: 40px auto;
   padding: 0 1em; }
@@ -10,6 +10,12 @@ body {
     padding: 20px; }
   body header img {
     width: 70.75%; }
+  body a:link {
+    color: #003876; }
+  body a:hover {
+    color: #366B34; }
+  body a:active {
+    color: #336B34; }
   body section {
     background-color: #ffffff;
     border: 5px solid #003876;
@@ -31,7 +37,7 @@ body {
     width: 50%;
     padding: 1.2em;
     overflow: hidden;
-    border-bottom: solid 3px #ED1C24; }
+    border-bottom: solid 2px #ED1C24; }
   @media screen and (max-width: 700px) {
     body .steps {
       float: none;
